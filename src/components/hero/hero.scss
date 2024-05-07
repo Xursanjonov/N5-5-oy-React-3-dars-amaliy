@@ -1,0 +1,20 @@
+.products {
+    width: 100%;
+    padding: 20px 15px;
+    text-align: center;
+    // background-color: aqua;
+}
+
+.products__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.products-box {
+    padding: 0 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
