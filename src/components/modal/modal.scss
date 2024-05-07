@@ -1,0 +1,96 @@
+.modal {
+  overflow-y: scroll;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: white;
+
+  .modal-header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    background-color: white;
+  }
+  .modal-close {
+    width: 42px;
+    padding: 0 2px 3px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    border: 2px solid gray;
+    color: red;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  .modal-close:active {
+    font-weight: 700;
+    border: 2px solid red;
+    color: white;
+    border-radius: 50%;
+    background-color: red;
+  }
+}
+
+.modal-cards {
+  width: 1480px;
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 3rem;
+}
+
+.modal-card {
+  width: 300px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 0 5px black;
+  border-radius: 10px;
+  background-color: white;
+  &:hover {
+    box-shadow: 0 0 5px blue;
+  }
+
+  .modal-card__url {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+  }
+
+  .modal-card__title {
+    width: 100%;
+    padding: 0.3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 0.3rem;
+  }
+  .modal-card__btn {
+    padding: 0.3rem 1rem;
+    background-color: lime;
+    border: 0;
+    border-radius: 15px;
+  }
+  .modal-card__btn2 {
+    padding: 0.3rem 1rem;
+    background-color: lightcyan;
+    border: 0;
+    border-radius: 15px;
+  }
+}
