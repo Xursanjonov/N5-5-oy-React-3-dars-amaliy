@@ -5,9 +5,8 @@ import './modal.scss'
 
 const Modal = ({ children, addCard, setOpenModal }) => {
     const [countCard, setCountCard] = React.useState(1)
-    const countAdd = (count) => {
-        if (countCard === count) count
-        else setCountCard(prev => prev + 1)
+    const countAdd = () => {
+        setCountCard(prev => prev + 1)
     }
     const countDelete = () => {
         setCountCard(prev => prev - 1)
@@ -31,7 +30,7 @@ const Modal = ({ children, addCard, setOpenModal }) => {
                                 <h5>Count: {product.count}</h5>
                             </div>
                             <div className="modal-card__btn">
-                                <Button onClick={countDelete(product.count)} key={product.id} className='modal-card__del-btn'>Del</Button>
+                                <Button onClick={countDelete} key={product.id} className='modal-card__del-btn'>Del</Button>
                                 <h2 className='count'>{countCard}</h2>
                                 <Button onClick={countAdd} key={product.id} className='modal-card__add-btn'>Add</Button>
                             </div>
