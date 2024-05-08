@@ -11,6 +11,7 @@ export const productsData = [
     rating: 4,
     price: "30000 so'm",
     id: "17",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -24,6 +25,7 @@ export const productsData = [
     rating: 3,
     price: "10000 so'm",
     id: "18",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -37,6 +39,7 @@ export const productsData = [
     rating: 2.5,
     price: "30000 so'm",
     id: "1",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -50,6 +53,7 @@ export const productsData = [
     rating: 3.7,
     price: "10000 so'm",
     id: "2",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -63,6 +67,7 @@ export const productsData = [
     rating: 4.2,
     price: "20000 so'm",
     id: "11",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -76,6 +81,7 @@ export const productsData = [
     rating: 1,
     price: "40000 so'm",
     id: "12",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -89,6 +95,7 @@ export const productsData = [
     rating: 4.3,
     price: "20000 so'm",
     id: "5",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -102,6 +109,7 @@ export const productsData = [
     rating: 3.6,
     price: "30000 so'm",
     id: "6",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -115,6 +123,7 @@ export const productsData = [
     rating: 4,
     price: "10000 so'm",
     id: "3",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -128,6 +137,7 @@ export const productsData = [
     rating: 4.8,
     price: "30000 so'm",
     id: "4",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -141,6 +151,7 @@ export const productsData = [
     rating: 4.9,
     price: "30000 so'm",
     id: "19",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -154,6 +165,7 @@ export const productsData = [
     rating: 5,
     price: "60000 so'm",
     id: "20",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -167,6 +179,7 @@ export const productsData = [
     rating: 3.7,
     price: "45000 so'm",
     id: "15",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -180,6 +193,7 @@ export const productsData = [
     rating: 4.1,
     price: "85000 so'm",
     id: "16",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -193,6 +207,7 @@ export const productsData = [
     rating: 3.2,
     price: "40000 so'm",
     id: "7",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -206,6 +221,7 @@ export const productsData = [
     rating: 2.8,
     price: "24000 so'm",
     id: "8",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -219,6 +235,7 @@ export const productsData = [
     rating: 1.7,
     price: "15000 so'm",
     id: "9",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -232,6 +249,7 @@ export const productsData = [
     rating: 2,
     price: "20000 so'm",
     id: "10",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -245,6 +263,7 @@ export const productsData = [
     rating: 5,
     price: "50000 so'm",
     id: "13",
+    count: 5,
   },
   {
     createdAt: "2024-04-24T05:07:25.248Z",
@@ -258,5 +277,6 @@ export const productsData = [
     rating: 3.4,
     price: "20000 so'm",
     id: "14",
+    count: 5,
   },
 ];

@@ -2,11 +2,12 @@ import React from 'react'
 import { productsData } from '../../static/productsData'
 import ProductsCard from '../cards/ProductsCard';
 import Modal from '../modal/Modal';
+import { nanoid } from 'nanoid';
 import './hero.scss'
 
 const Hero = ({ openModal, setOpenModal }) => {
     const [addCard, setAddCard] = React.useState([]);
-    console.log(addCard);
+    // console.log(addCard);
 
     return (
         <>
@@ -20,7 +21,7 @@ const Hero = ({ openModal, setOpenModal }) => {
             </section>
             {
                 openModal ? (
-                    <Modal addCard={addCard} setOpenModal={setOpenModal} >
+                    <Modal addCard={addCard} key={nanoid()} setOpenModal={setOpenModal} >
                         <h1>Modal</h1>
                     </Modal>
                 ) : ''
